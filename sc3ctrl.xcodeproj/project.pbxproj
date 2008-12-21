@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		567162810EFD45740047EA2B /* VVOSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567162800EFD45740047EA2B /* VVOSC.framework */; };
+		5671631B0EFE70500047EA2B /* SC3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */; };
 		8DD76F9A0486AA7600D96B5E /* sc3ctrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* sc3ctrl.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* sc3ctrl.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* sc3ctrl.1 */; };
@@ -32,6 +33,9 @@
 		32A70AAB03705E1F00C91783 /* sc3ctrl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sc3ctrl_Prefix.pch; sourceTree = "<group>"; };
 		567162800EFD45740047EA2B /* VVOSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVOSC.framework; path = Projects/vvosc/build/Release/VVOSC.framework; sourceTree = DEVELOPER_DIR; };
 		567162BF0EFE62AD0047EA2B /* sc3ctrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sc3ctrl.h; path = Projects/sc3ctrl/sc3ctrl.h; sourceTree = DEVELOPER_DIR; };
+		567163190EFE70500047EA2B /* SC3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC3Controller.h; path = Projects/sc3ctrl/SC3Controller.h; sourceTree = DEVELOPER_DIR; };
+		5671631A0EFE70500047EA2B /* SC3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SC3Controller.m; path = Projects/sc3ctrl/SC3Controller.m; sourceTree = DEVELOPER_DIR; };
+		567163FE0EFE87020047EA2B /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debug.h; path = Projects/sc3ctrl/debug.h; sourceTree = DEVELOPER_DIR; };
 		8DD76FA10486AA7600D96B5E /* sc3ctrl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sc3ctrl; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* sc3ctrl.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = sc3ctrl.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +56,6 @@
 		08FB7794FE84155DC02AAC07 /* sc3ctrl */ = {
 			isa = PBXGroup;
 			children = (
-				567162BF0EFE62AD0047EA2B /* sc3ctrl.h */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6859EA2029092E104C91782 /* Documentation */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
@@ -64,8 +67,12 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				567163190EFE70500047EA2B /* SC3Controller.h */,
+				5671631A0EFE70500047EA2B /* SC3Controller.m */,
+				567162BF0EFE62AD0047EA2B /* sc3ctrl.h */,
 				32A70AAB03705E1F00C91783 /* sc3ctrl_Prefix.pch */,
 				08FB7796FE84155DC02AAC07 /* sc3ctrl.m */,
+				567163FE0EFE87020047EA2B /* debug.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9A0486AA7600D96B5E /* sc3ctrl.m in Sources */,
+				5671631B0EFE70500047EA2B /* SC3Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +196,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = Debug_Enabled;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -201,6 +210,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "@executable_path/../Frameworks";
