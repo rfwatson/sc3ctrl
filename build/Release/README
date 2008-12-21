@@ -1,6 +1,3 @@
-sc3ctrl
-=======
-
 **************************************************************************
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -23,35 +20,37 @@ Introduction
 ============
 
 sc3ctrl is a command line utility which uses OpenSoundControl to control
-the SuperCollider3.app in OSX. 
+the SuperCollider3.app in OSX.
 
-Source code/downloads: http://github.com/rfwatson/sc3ctrl
+Consists of a small CoreFoundation bundle written in Objective-C and a
+single SuperCollider class. 
+
+Source code: http://github.com/rfwatson/sc3ctrl
 
 
 Installation
 ============
 
 1) Drag the bundle into a suitable location on your machine 
-              (such as /Application/Utilities/)
+              (e.g. /Application/Utilities/)
 
-2) Double click "install.rb". (This will create an executable script in 
-/usr/local/lib. This allows sc3ctrl to be run from the command-line. It also
-copies the required SuperCollider class file to ~/Application\ 
-Support/SuperCollider/Extensions/).
+2) cd /Application/Utilities/sc3ctrl/
 
-3) Start SuperCollider.app
+3) sudo install.rb
+
+4) Start SuperCollider.app
 
 
 Usage
 =====
 
-sc3ctrl -x                Execute the SC code in environment variable SC_INTERPRET_TEXT 
+sc3ctrl -x                Execute the SC code in environment variable SC_INTERPRET_TEXT
 
 sc3ctrl -x VARIABLE_NAME  Execute the SC code in environment variable VARIABLE_NAME
 
-sc3ctrl -d classname      Open the help file for classname
+sc3ctrl -d classname      Open help file for classname
 
-sc3ctrl -j classname      Open the class definition for classname
+sc3ctrl -j classname      Open class definition for classname
 
 sc3ctrl -y methodname     Examine implementations of methodname
 

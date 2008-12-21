@@ -19,7 +19,6 @@
     return self;
 }
 
-
 - (void)interpretContentsOfEnvironmentVariable:(const char *)var
 {
     char *utf8cmd = getenv(var);

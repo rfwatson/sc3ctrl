@@ -8,13 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		5671631B0EFE70500047EA2B /* SC3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */; };
-		567164C90EFE933D0047EA2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		567165410EFE98A90047EA2B /* VVOSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567165400EFE98A90047EA2B /* VVOSC.framework */; };
+		567167160EFECB0A0047EA2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567167150EFECB0A0047EA2B /* Foundation.framework */; };
+		5671672F0EFECD9B0047EA2B /* VVOSC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 567165400EFE98A90047EA2B /* VVOSC.framework */; };
+		567167640EFECFDC0047EA2B /* SC3Controller.sc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 567167630EFECFD80047EA2B /* SC3Controller.sc */; };
+		5671676B0EFEDC6E0047EA2B /* README in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5671676A0EFEDC650047EA2B /* README */; };
+		567167770EFEDCBC0047EA2B /* install.rb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 567167760EFEDCB50047EA2B /* install.rb */; };
 		8DD76F9A0486AA7600D96B5E /* sc3ctrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* sc3ctrl.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9F0486AA7600D96B5E /* sc3ctrl.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* sc3ctrl.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		567167310EFECD9C0047EA2B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				567167770EFEDCBC0047EA2B /* install.rb in CopyFiles */,
+				5671676B0EFEDC6E0047EA2B /* README in CopyFiles */,
+				567167640EFECFDC0047EA2B /* SC3Controller.sc in CopyFiles */,
+				5671672F0EFECD9B0047EA2B /* VVOSC.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 8;
@@ -29,13 +46,16 @@
 
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* sc3ctrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sc3ctrl.m; sourceTree = "<group>"; };
-		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* sc3ctrl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sc3ctrl_Prefix.pch; sourceTree = "<group>"; };
 		567162BF0EFE62AD0047EA2B /* sc3ctrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sc3ctrl.h; path = Projects/sc3ctrl/sc3ctrl.h; sourceTree = DEVELOPER_DIR; };
 		567163190EFE70500047EA2B /* SC3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC3Controller.h; path = Projects/sc3ctrl/SC3Controller.h; sourceTree = DEVELOPER_DIR; };
 		5671631A0EFE70500047EA2B /* SC3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SC3Controller.m; path = Projects/sc3ctrl/SC3Controller.m; sourceTree = DEVELOPER_DIR; };
 		567163FE0EFE87020047EA2B /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debug.h; path = Projects/sc3ctrl/debug.h; sourceTree = DEVELOPER_DIR; };
 		567165400EFE98A90047EA2B /* VVOSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVOSC.framework; path = ../vvosc/build/Release/VVOSC.framework; sourceTree = SOURCE_ROOT; };
+		567167150EFECB0A0047EA2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = ../../../System/Library/Frameworks/Foundation.framework; sourceTree = SOURCE_ROOT; };
+		567167630EFECFD80047EA2B /* SC3Controller.sc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SC3Controller.sc; path = supercollider/SC3Controller.sc; sourceTree = SOURCE_ROOT; };
+		5671676A0EFEDC650047EA2B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = Projects/sc3ctrl/README; sourceTree = DEVELOPER_DIR; };
+		567167760EFEDCB50047EA2B /* install.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = install.rb; path = Projects/sc3ctrl/install.rb; sourceTree = DEVELOPER_DIR; };
 		8DD76FA10486AA7600D96B5E /* sc3ctrl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sc3ctrl; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* sc3ctrl.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = sc3ctrl.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,8 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				567164C90EFE933D0047EA2B /* Foundation.framework in Frameworks */,
 				567165410EFE98A90047EA2B /* VVOSC.framework in Frameworks */,
+				567167160EFECB0A0047EA2B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +87,7 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				567167630EFECFD80047EA2B /* SC3Controller.sc */,
 				567163190EFE70500047EA2B /* SC3Controller.h */,
 				5671631A0EFE70500047EA2B /* SC3Controller.m */,
 				567162BF0EFE62AD0047EA2B /* sc3ctrl.h */,
@@ -80,8 +101,8 @@
 		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				567167150EFECB0A0047EA2B /* Foundation.framework */,
 				567165400EFE98A90047EA2B /* VVOSC.framework */,
-				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -90,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				8DD76FA10486AA7600D96B5E /* sc3ctrl */,
+				567167760EFEDCB50047EA2B /* install.rb */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +119,7 @@
 		C6859EA2029092E104C91782 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				5671676A0EFEDC650047EA2B /* README */,
 				C6859EA3029092ED04C91782 /* sc3ctrl.1 */,
 			);
 			name = Documentation;
@@ -112,6 +135,7 @@
 				8DD76F990486AA7600D96B5E /* Sources */,
 				8DD76F9B0486AA7600D96B5E /* Frameworks */,
 				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+				567167310EFECD9C0047EA2B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -216,7 +240,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LD_DYLIB_INSTALL_NAME = "";
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "";
 				PREBINDING = NO;
 				SDKROOT = macosx10.4;
 			};

@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -271,9 +273,11 @@
 								<string>08FB7795FE84155DC02AAC07</string>
 								<string>C6859EA2029092E104C91782</string>
 								<string>08FB779DFE84155DC02AAC07</string>
-								<string>08FB779EFE84155DC02AAC07</string>
 								<string>1AB674ADFE9D54B511CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>5671655C0EFE9A030047EA2B</string>
+								<string>5671676C0EFEDC740047EA2B</string>
+								<string>5671672E0EFECD7F0047EA2B</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C77FABC04509CD000000102</string>
 								<string>1C3E0DCA080725EA00A55177</string>
@@ -281,8 +285,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
-									<integer>1</integer>
+									<integer>15</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -315,14 +318,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>567162000EFD3EA50047EA2B</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SC3Controller.m</string>
+								<string>install.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,20 +331,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>567162010EFD3EA50047EA2B</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SC3Controller.m</string>
+										<string>install.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>567167100EFEC8B00047EA2B</string>
+										<string>5671677C0EFEDCBF0047EA2B</string>
 										<key>history</key>
 										<array>
 											<string>567164430EFE8E370047EA2B</string>
 											<string>567165460EFE996B0047EA2B</string>
-											<string>567166740EFEAFD20047EA2B</string>
 											<string>567166FD0EFEC78D0047EA2B</string>
-											<string>5671670A0EFEC8B00047EA2B</string>
 											<string>5671670B0EFEC8B00047EA2B</string>
-											<string>5671670C0EFEC8B00047EA2B</string>
+											<string>567167290EFECD490047EA2B</string>
+											<string>5671676D0EFEDC740047EA2B</string>
+											<string>5671676E0EFEDC740047EA2B</string>
+											<string>5671676F0EFEDC740047EA2B</string>
+											<string>567167790EFEDCBF0047EA2B</string>
+											<string>5671677A0EFEDCBF0047EA2B</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -421,6 +425,13 @@
 											<string>5671670D0EFEC8B00047EA2B</string>
 											<string>5671670E0EFEC8B00047EA2B</string>
 											<string>5671670F0EFEC8B00047EA2B</string>
+											<string>5671672A0EFECD490047EA2B</string>
+											<string>5671672B0EFECD490047EA2B</string>
+											<string>5671672C0EFECD490047EA2B</string>
+											<string>567167710EFEDC740047EA2B</string>
+											<string>567167720EFEDC740047EA2B</string>
+											<string>567167730EFEDC740047EA2B</string>
+											<string>5671677B0EFEDCBF0047EA2B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -515,7 +526,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1473, 180}}</string>
+										<string>{{10, 27}, {1473, 218}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -731,8 +742,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>567165EC0EFEA8780047EA2B</string>
-		<string>567165ED0EFEA8780047EA2B</string>
 		<string>567165D60EFEA7DD0047EA2B</string>
 		<string>567165D70EFEA7DD0047EA2B</string>
 		<string>/Developer/Projects/sc3ctrl/sc3ctrl.xcodeproj</string>
