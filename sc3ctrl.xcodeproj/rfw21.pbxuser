@@ -9,7 +9,7 @@
 			8DD76F960486AA7600D96B5E /* sc3ctrl */,
 		);
 		breakpoints = (
-			567165B70EFEA7440047EA2B /* SC3Controller.m:86 */,
+			567165B70EFEA7440047EA2B /* SC3Controller.m:93 */,
 		);
 		codeSenseManager = 567161FA0EFD3E860047EA2B /* Code sense */;
 		executables = (
@@ -251,6 +251,21 @@
 			567166800EFEAFD20047EA2B /* PBXTextBookmark */ = 567166800EFEAFD20047EA2B /* PBXTextBookmark */;
 			567166810EFEAFD20047EA2B /* PBXTextBookmark */ = 567166810EFEAFD20047EA2B /* PBXTextBookmark */;
 			567166820EFEAFD20047EA2B /* PBXTextBookmark */ = 567166820EFEAFD20047EA2B /* PBXTextBookmark */;
+			567166840EFEBC560047EA2B /* PBXTextBookmark */ = 567166840EFEBC560047EA2B /* PBXTextBookmark */;
+			567166850EFEBC560047EA2B /* PBXTextBookmark */ = 567166850EFEBC560047EA2B /* PBXTextBookmark */;
+			567166860EFEBC560047EA2B /* PBXTextBookmark */ = 567166860EFEBC560047EA2B /* PBXTextBookmark */;
+			567166870EFEBC560047EA2B /* PBXTextBookmark */ = 567166870EFEBC560047EA2B /* PBXTextBookmark */;
+			567166880EFEBC560047EA2B /* PBXTextBookmark */ = 567166880EFEBC560047EA2B /* PBXTextBookmark */;
+			567166890EFEBC560047EA2B /* PBXTextBookmark */ = 567166890EFEBC560047EA2B /* PBXTextBookmark */;
+			5671668A0EFEBC640047EA2B /* PBXTextBookmark */ = 5671668A0EFEBC640047EA2B /* PBXTextBookmark */;
+			5671668B0EFEBC810047EA2B /* PBXTextBookmark */ = 5671668B0EFEBC810047EA2B /* PBXTextBookmark */;
+			5671668D0EFEBE5C0047EA2B /* PBXTextBookmark */ = 5671668D0EFEBE5C0047EA2B /* PBXTextBookmark */;
+			5671668E0EFEBE5C0047EA2B /* PBXTextBookmark */ = 5671668E0EFEBE5C0047EA2B /* PBXTextBookmark */;
+			5671668F0EFEBE5C0047EA2B /* PBXTextBookmark */ = 5671668F0EFEBE5C0047EA2B /* PBXTextBookmark */;
+			567166900EFEBE5C0047EA2B /* PBXTextBookmark */ = 567166900EFEBE5C0047EA2B /* PBXTextBookmark */;
+			567166910EFEBE5C0047EA2B /* PBXTextBookmark */ = 567166910EFEBE5C0047EA2B /* PBXTextBookmark */;
+			567166920EFEBE5C0047EA2B /* PBXTextBookmark */ = 567166920EFEBE5C0047EA2B /* PBXTextBookmark */;
+			567166930EFEBE5C0047EA2B /* PBXTextBookmark */ = 567166930EFEBE5C0047EA2B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 567161F90EFD3E860047EA2B /* Source Control */;
 		userBuildSettings = {
@@ -331,8 +346,8 @@
 	567163190EFE70500047EA2B /* SC3Controller.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1412, 589}}";
-			sepNavSelRange = "{554, 0}";
-			sepNavVisRange = "{0, 576}";
+			sepNavSelRange = "{593, 0}";
+			sepNavVisRange = "{0, 615}";
 			sepNavWindowFrame = "{{15, 52}, {948, 971}}";
 		};
 	};
@@ -415,7 +430,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 99";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 848;
 		vrLoc = 1473;
@@ -425,7 +440,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 111";
 		rLen = 5;
-		rLoc = 1901;
+		rLoc = 2248;
 		rType = 0;
 		vrLen = 848;
 		vrLoc = 1473;
@@ -475,7 +490,7 @@
 		fRef = 567163030EFE67C70047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 61";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 1059;
@@ -495,7 +510,7 @@
 		fRef = 567163030EFE67C70047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 55";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 1045;
@@ -505,7 +520,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 118";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 801;
 		vrLoc = 1700;
@@ -515,7 +530,7 @@
 		fRef = 567163030EFE67C70047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 54";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 1045;
@@ -535,7 +550,7 @@
 		fRef = 567163030EFE67C70047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 60";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 961;
@@ -555,7 +570,7 @@
 		fRef = 567163030EFE67C70047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 60";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 961;
@@ -689,7 +704,7 @@
 		fRef = 567163030EFE67C70047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 54";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1335;
 		vrLoc = 805;
@@ -769,7 +784,7 @@
 		fRef = 567163030EFE67C70047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 54";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1335;
 		vrLoc = 805;
@@ -804,7 +819,7 @@
 		vrLen = 347;
 		vrLoc = 1947;
 	};
-	567165B70EFEA7440047EA2B /* SC3Controller.m:86 */ = {
+	567165B70EFEA7440047EA2B /* SC3Controller.m:93 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -816,7 +831,7 @@
 		functionName = "-retrieveHelpFile:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 86;
+		lineNumber = 93;
 		location = sc3ctrl;
 		modificationTime = 251570273.464183;
 		state = 0;
@@ -826,7 +841,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1947;
@@ -836,7 +851,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 347;
 		vrLoc = 1947;
@@ -846,7 +861,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 909;
 		vrLoc = 1658;
@@ -856,7 +871,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 1658;
@@ -866,7 +881,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 347;
 		vrLoc = 1947;
@@ -876,7 +891,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 873;
 		vrLoc = 1689;
@@ -886,7 +901,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1531;
@@ -908,7 +923,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 805;
 		vrLoc = 1286;
@@ -918,7 +933,7 @@
 		fRef = 567163030EFE67C70047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 54";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 858;
@@ -928,7 +943,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 805;
 		vrLoc = 1286;
@@ -938,7 +953,7 @@
 		fRef = 567165CB0EFEA7C60047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 62";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1126;
 		vrLoc = 1045;
@@ -958,7 +973,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 1288;
@@ -968,7 +983,7 @@
 		fRef = 567165CB0EFEA7C60047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 51";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 961;
@@ -978,7 +993,7 @@
 		fRef = 567165CB0EFEA7C60047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 51";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1126;
 		vrLoc = 1045;
@@ -988,7 +1003,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 805;
 		vrLoc = 1286;
@@ -1008,7 +1023,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 1288;
@@ -1018,7 +1033,7 @@
 		fRef = 567165CB0EFEA7C60047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 62";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 961;
@@ -1028,7 +1043,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1531;
@@ -1038,7 +1053,7 @@
 		fRef = 567165CB0EFEA7C60047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 62";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 1630;
@@ -1060,7 +1075,7 @@
 		fRef = 567165CB0EFEA7C60047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 62";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 1630;
@@ -1085,7 +1100,7 @@
 		fRef = 567165CB0EFEA7C60047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 57";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 1195;
@@ -1115,7 +1130,7 @@
 		fRef = 5671631A0EFE70500047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 119";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 1288;
@@ -1189,9 +1204,9 @@
 		path = /Developer/Projects/sc3ctrl/sc3ctrl.m;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1412, 896}}";
-			sepNavSelRange = "{1585, 0}";
-			sepNavVisRange = "{605, 1080}";
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 1024}}";
+			sepNavSelRange = "{1760, 0}";
+			sepNavVisRange = "{791, 1043}";
 		};
 	};
 	5671660C0EFEAA810047EA2B /* PBXTextBookmark */ = {
@@ -1229,7 +1244,7 @@
 		fRef = 567166010EFEAA300047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 122";
 		rLen = 5;
-		rLoc = 1901;
+		rLoc = 2248;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 1817;
@@ -1289,7 +1304,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 54";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 1195;
@@ -1299,7 +1314,7 @@
 		fRef = 567166010EFEAA300047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 122";
 		rLen = 5;
-		rLoc = 1901;
+		rLoc = 2248;
 		rType = 0;
 		vrLen = 607;
 		vrLoc = 1911;
@@ -1369,7 +1384,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 54";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 824;
@@ -1399,7 +1414,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 54";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 824;
@@ -1409,7 +1424,7 @@
 		fRef = 567166010EFEAA300047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 114";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 648;
 		vrLoc = 1931;
@@ -1419,7 +1434,7 @@
 		fRef = 567166010EFEAA300047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 116";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 648;
 		vrLoc = 1931;
@@ -1429,7 +1444,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 54";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1138;
 		vrLoc = 824;
@@ -1439,7 +1454,7 @@
 		fRef = 567166010EFEAA300047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 116";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 648;
 		vrLoc = 1931;
@@ -1449,7 +1464,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 56";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1117;
 		vrLoc = 885;
@@ -1459,7 +1474,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 54";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1067;
 		vrLoc = 885;
@@ -1469,7 +1484,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 62";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1300;
 		vrLoc = 885;
@@ -1489,7 +1504,7 @@
 		fRef = 567166010EFEAA300047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 116";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 1880;
@@ -1499,7 +1514,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 62";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1300;
 		vrLoc = 885;
@@ -1519,7 +1534,7 @@
 		fRef = 567166010EFEAA300047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 130";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 648;
 		vrLoc = 2003;
@@ -1529,7 +1544,7 @@
 		fRef = 567166010EFEAA300047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 130";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 1952;
@@ -1539,7 +1554,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 62";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1300;
 		vrLoc = 885;
@@ -1549,7 +1564,7 @@
 		fRef = 567166010EFEAA300047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 130";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 1952;
@@ -1559,7 +1574,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 62";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 1078;
@@ -1569,7 +1584,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 56";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 1078;
@@ -1579,7 +1594,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 56";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 1078;
@@ -1589,7 +1604,7 @@
 		fRef = 567166010EFEAA300047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 130";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 2205;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 1952;
@@ -1599,7 +1614,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 56";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 1078;
@@ -1659,7 +1674,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 56";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 1112;
@@ -1679,7 +1694,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 59";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1099;
 		vrLoc = 1195;
@@ -1699,7 +1714,7 @@
 		fRef = 567163190EFE70500047EA2B /* SC3Controller.h */;
 		name = "SC3Controller.h: 31";
 		rLen = 0;
-		rLoc = 554;
+		rLoc = 593;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 0;
@@ -1729,7 +1744,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 63";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1124;
 		vrLoc = 1216;
@@ -1739,7 +1754,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 63";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 1195;
@@ -1759,7 +1774,7 @@
 		fRef = 567163190EFE70500047EA2B /* SC3Controller.h */;
 		name = "SC3Controller.h: 33";
 		rLen = 0;
-		rLoc = 554;
+		rLoc = 593;
 		rType = 0;
 		vrLen = 860;
 		vrLoc = 0;
@@ -1779,7 +1794,7 @@
 		fRef = 567163190EFE70500047EA2B /* SC3Controller.h */;
 		name = "SC3Controller.h: 31";
 		rLen = 0;
-		rLoc = 554;
+		rLoc = 593;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 0;
@@ -1789,7 +1804,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 63";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1124;
 		vrLoc = 1216;
@@ -1809,7 +1824,7 @@
 		fRef = 567163190EFE70500047EA2B /* SC3Controller.h */;
 		name = "SC3Controller.h: 31";
 		rLen = 0;
-		rLoc = 554;
+		rLoc = 593;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 0;
@@ -1839,7 +1854,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 63";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1124;
 		vrLoc = 1216;
@@ -1849,7 +1864,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 58";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 1216;
@@ -1859,7 +1874,7 @@
 		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
 		name = "sc3ctrl.m: 56";
 		rLen = 0;
-		rLoc = 1594;
+		rLoc = 1777;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 1216;
@@ -1871,9 +1886,9 @@
 		path = /Developer/Projects/sc3ctrl/SC3Controller.m;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1412, 1556}}";
-			sepNavSelRange = "{1857, 0}";
-			sepNavVisRange = "{1303, 603}";
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 1744}}";
+			sepNavSelRange = "{2164, 0}";
+			sepNavVisRange = "{1516, 732}";
 		};
 	};
 	567166740EFEAFD20047EA2B /* PBXTextBookmark */ = {
@@ -1901,7 +1916,7 @@
 		fRef = 567166710EFEAFC10047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 85";
 		rLen = 0;
-		rLoc = 1857;
+		rLoc = 2018;
 		rType = 0;
 		vrLen = 603;
 		vrLoc = 1303;
@@ -2011,7 +2026,7 @@
 		fRef = 567166710EFEAFC10047EA2B /* SC3Controller.m */;
 		name = "SC3Controller.m: 85";
 		rLen = 0;
-		rLoc = 1857;
+		rLoc = 2018;
 		rType = 0;
 		vrLen = 603;
 		vrLoc = 1303;
@@ -2021,10 +2036,160 @@
 		fRef = 567163190EFE70500047EA2B /* SC3Controller.h */;
 		name = "SC3Controller.h: 22";
 		rLen = 0;
-		rLoc = 554;
+		rLoc = 593;
 		rType = 0;
 		vrLen = 576;
 		vrLoc = 0;
+	};
+	567166840EFEBC560047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
+		name = "sc3ctrl.m: 51";
+		rLen = 0;
+		rLoc = 1661;
+		rType = 0;
+		vrLen = 1059;
+		vrLoc = 708;
+	};
+	567166850EFEBC560047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567163190EFE70500047EA2B /* SC3Controller.h */;
+		name = "SC3Controller.h: 23";
+		rLen = 0;
+		rLoc = 593;
+		rType = 0;
+		vrLen = 590;
+		vrLoc = 0;
+	};
+	567166860EFEBC560047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567163190EFE70500047EA2B /* SC3Controller.h */;
+		name = "SC3Controller.h: 26";
+		rLen = 0;
+		rLoc = 615;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	567166870EFEBC560047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
+		name = "sc3ctrl.m: 51";
+		rLen = 0;
+		rLoc = 1661;
+		rType = 0;
+		vrLen = 1059;
+		vrLoc = 708;
+	};
+	567166880EFEBC560047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567163190EFE70500047EA2B /* SC3Controller.h */;
+		name = "SC3Controller.h: 23";
+		rLen = 0;
+		rLoc = 593;
+		rType = 0;
+		vrLen = 590;
+		vrLoc = 0;
+	};
+	567166890EFEBC560047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567166710EFEAFC10047EA2B /* SC3Controller.m */;
+		name = "SC3Controller.m: 94";
+		rLen = 0;
+		rLoc = 2205;
+		rType = 0;
+		vrLen = 759;
+		vrLoc = 1308;
+	};
+	5671668A0EFEBC640047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567166710EFEAFC10047EA2B /* SC3Controller.m */;
+		name = "SC3Controller.m: 92";
+		rLen = 0;
+		rLoc = 2018;
+		rType = 0;
+		vrLen = 755;
+		vrLoc = 1308;
+	};
+	5671668B0EFEBC810047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567166710EFEAFC10047EA2B /* SC3Controller.m */;
+		name = "SC3Controller.m: 92";
+		rLen = 0;
+		rLoc = 2018;
+		rType = 0;
+		vrLen = 755;
+		vrLoc = 1308;
+	};
+	5671668D0EFEBE5C0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
+		name = "sc3ctrl.m: 55";
+		rLen = 0;
+		rLoc = 1760;
+		rType = 0;
+		vrLen = 1043;
+		vrLoc = 791;
+	};
+	5671668E0EFEBE5C0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567163190EFE70500047EA2B /* SC3Controller.h */;
+		name = "SC3Controller.h: 24";
+		rLen = 0;
+		rLoc = 593;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 0;
+	};
+	5671668F0EFEBE5C0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567166710EFEAFC10047EA2B /* SC3Controller.m */;
+		name = "SC3Controller.m: 93";
+		rLen = 0;
+		rLoc = 2019;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 1346;
+	};
+	567166900EFEBE5C0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567166710EFEAFC10047EA2B /* SC3Controller.m */;
+		name = "SC3Controller.m: 93";
+		rLen = 0;
+		rLoc = 2019;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 1346;
+	};
+	567166910EFEBE5C0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567166080EFEAA3D0047EA2B /* sc3ctrl.m */;
+		name = "sc3ctrl.m: 55";
+		rLen = 0;
+		rLoc = 1760;
+		rType = 0;
+		vrLen = 1043;
+		vrLoc = 791;
+	};
+	567166920EFEBE5C0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567163190EFE70500047EA2B /* SC3Controller.h */;
+		name = "SC3Controller.h: 24";
+		rLen = 0;
+		rLoc = 593;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 0;
+	};
+	567166930EFEBE5C0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567166710EFEAFC10047EA2B /* SC3Controller.m */;
+		name = "SC3Controller.m: 100";
+		rLen = 0;
+		rLoc = 2164;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 1516;
 	};
 	8DD76F960486AA7600D96B5E /* sc3ctrl */ = {
 		activeExec = 0;

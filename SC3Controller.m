@@ -84,6 +84,22 @@
     [outport sendThisMessage:msg];
 }
 
+- (void)stop
+{
+    OSCMessage *msg = [OSCMessage createMessageToAddress:@"/sc3ctrl/stop"];
+    
+    Log(@"Stopping server");
+    [outport sendThisMessage:msg];
+}
+
+- (void)clearPostWindow
+{
+    OSCMessage *msg = [OSCMessage createMessageToAddress:@"/sc3ctrl/clear"];
+    
+    Log(@"Clearing post window");
+    [outport sendThisMessage:msg];    
+}
+
 - (void)close
 {
     [manager release];

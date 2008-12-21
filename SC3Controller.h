@@ -20,6 +20,8 @@
 - (void)openClassFile:(NSString *)classname;
 - (void)openImplementations:(NSString *)method;
 - (void)openReferences:(NSString *)method;
+- (void)stop;
+- (void)clearPostWindow;
 - (void)close;
 
 @end

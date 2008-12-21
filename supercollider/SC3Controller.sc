@@ -33,6 +33,18 @@ SC3Controller {
           { SC3Controller.methodReferences(msg[1]) }.defer
         }.add;
         nodes.add(node);
+        
+        node = OSCresponderNode(nil, '/sc3ctrl/stop') { |t, r, msg|
+          thisProcess.stop;
+        }.add;
+        nodes.add(node);
+        
+        node = OSCresponderNode(nil, '/sc3ctrl/clear') { |t, r, msg|
+          {
+            Document.listener.string = ""; "";
+          }.defer;
+        }.add;
+        nodes.add(node);
       }
     }
   }

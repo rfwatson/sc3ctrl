@@ -45,7 +45,15 @@ int main (int argc, const char **argv) {
             } else {
                 [controller openReferences:[NSString stringWithUTF8String:argv[2]]];
             }
-        }        
+        }    
+        
+        if([arg isEqual:@"-s"]) {
+            [controller stop];
+        }    
+        
+        if([arg isEqual:@"-c"]) {
+            [controller clearPostWindow];
+        }    
     }
 
     [controller close];
