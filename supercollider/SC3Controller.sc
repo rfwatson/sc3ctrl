@@ -3,6 +3,21 @@
 SC3Controller {
   classvar nodes;
 
+  *initClass {
+    var postToFront;
+    nodes = List[];
+        
+    Platform.case(\osx) {
+      postToFront = {
+        Document.listener.front;
+      };
+      
+      StartUp.add {
+        this.addListeners;
+      }
+    }
+  }
+
   *addListeners {
     var node;
     if(nodes.isEmpty) {
@@ -62,21 +77,6 @@ SC3Controller {
 
   *removeAllListeners {
     nodes.do(_.remove);
-  }
-
-  *initClass {
-    var postToFront;
-    nodes = List[];
-        
-    Platform.case(\osx) {
-      postToFront = {
-        Document.listener.front;
-      };
-      
-      StartUp.add {
-        this.addListeners;
-      }
-    }
   }
 
   // adapated from Kernel.sc
