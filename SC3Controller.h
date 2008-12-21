@@ -22,6 +22,8 @@
 - (void)openReferences:(NSString *)method;
 - (void)stop;
 - (void)clearPostWindow;
+- (void)postWindowToFront;
+- (void)recompile;
 - (void)close;
 
 @end

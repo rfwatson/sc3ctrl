@@ -100,6 +100,22 @@
     [outport sendThisMessage:msg];    
 }
 
+- (void)postWindowToFront
+{
+    OSCMessage *msg = [OSCMessage createMessageToAddress:@"/sc3ctrl/postfront"];
+    
+    Log(@"Post window to front");
+    [outport sendThisMessage:msg];        
+}
+
+- (void)recompile
+{
+    OSCMessage *msg = [OSCMessage createMessageToAddress:@"/sc3ctrl/recompile"];
+    
+    Log(@"Recompiling");
+    [outport sendThisMessage:msg];        
+}
+
 - (void)close
 {
     [manager release];

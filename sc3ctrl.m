@@ -54,6 +54,14 @@ int main (int argc, const char **argv) {
         if([arg isEqual:@"-c"]) {
             [controller clearPostWindow];
         }    
+        
+        if([arg isEqual:@"-p"]) {
+            [controller postWindowToFront];
+        }    
+        
+        if([arg isEqual:@"-k"]) {
+            [controller recompile];
+        }    
     }
 
     [controller close];

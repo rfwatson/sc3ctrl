@@ -1,16 +1,20 @@
-// OSCresponderNode(nil, '/testme', { |...args| args.postln }).add
-
 SC3Controller {
   classvar nodes;
 
   *initClass {
+    var postToFront;
     nodes = List[];
-    
+        
     Platform.case(\osx) {
+      postToFront = {
+        Document.listener.front;
+      };
+      
       StartUp.add {
         var node;
         node = OSCresponderNode(nil, '/sc3ctrl/cmd') { |t, r, msg|
-          msg[1].asString.interpretPrint
+          msg[1].asString.interpretPrint;
+          { postToFront.() }.defer;
         }.add;
         nodes.add(node);
         
@@ -20,7 +24,7 @@ SC3Controller {
         nodes.add(node);
        
         node = OSCresponderNode(nil, '/sc3ctrl/class') { |t, r, msg|
-          { msg[1].interpret.openCodeFile }.defer
+          { msg[1].asString.interpret.openCodeFile }.defer
         }.add;
         nodes.add(node);
 
@@ -40,8 +44,22 @@ SC3Controller {
         nodes.add(node);
         
         node = OSCresponderNode(nil, '/sc3ctrl/clear') { |t, r, msg|
-          {
-            Document.listener.string = ""; "";
+          { 
+            Document.listener.string = ""; ""; 
+            postToFront.();
+          }.defer;
+        }.add;
+        nodes.add(node);
+        
+        node = OSCresponderNode(nil, '/sc3ctrl/postfront') { |t, r, msg|
+          { postToFront.() }.defer;
+        }.add;
+        nodes.add(node);
+        
+        node = OSCresponderNode(nil, '/sc3ctrl/recompile') { |t, r, msg|
+          { 
+            thisProcess.recompile;
+            postToFront.();
           }.defer;
         }.add;
         nodes.add(node);
