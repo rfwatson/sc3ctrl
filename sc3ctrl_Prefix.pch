@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'sc3ctrl' target in the 'sc3ctrl' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
