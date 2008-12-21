@@ -13,7 +13,7 @@
 		5671672F0EFECD9B0047EA2B /* VVOSC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 567165400EFE98A90047EA2B /* VVOSC.framework */; };
 		567167640EFECFDC0047EA2B /* SC3Controller.sc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 567167630EFECFD80047EA2B /* SC3Controller.sc */; };
 		5671676B0EFEDC6E0047EA2B /* README in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5671676A0EFEDC650047EA2B /* README */; };
-		567167770EFEDCBC0047EA2B /* install.rb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 567167760EFEDCB50047EA2B /* install.rb */; };
+		5671679B0EFEE2270047EA2B /* install.rb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 567167760EFEDCB50047EA2B /* install.rb */; };
 		8DD76F9A0486AA7600D96B5E /* sc3ctrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* sc3ctrl.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9F0486AA7600D96B5E /* sc3ctrl.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* sc3ctrl.1 */; };
 /* End PBXBuildFile section */
@@ -25,8 +25,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				567167770EFEDCBC0047EA2B /* install.rb in CopyFiles */,
 				5671676B0EFEDC6E0047EA2B /* README in CopyFiles */,
+				5671679B0EFEE2270047EA2B /* install.rb in CopyFiles */,
 				567167640EFECFDC0047EA2B /* SC3Controller.sc in CopyFiles */,
 				5671672F0EFECD9B0047EA2B /* VVOSC.framework in CopyFiles */,
 			);
@@ -235,7 +235,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = Debug_Enabled;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "@executable_path/../Frameworks";

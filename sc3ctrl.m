@@ -6,18 +6,18 @@ int main (int argc, const char **argv) {
     SC3Controller *controller = [[SC3Controller alloc] init];
 
     if(argv[1] == NULL) {
-        NSLog(@"Usage: sc3ctrl -x");
+        printf("Usage:\nEnsure SC3Controller.sc is in SC class load path. Then\n\nsc3ctrl -x (executes code in environment variable SC_INTERPRET_TEXT)\nsc3ctrl -x A_DIFFERENT_VARIABLE_NAME\n\nOther usages: see README\n");
     } else {
         NSString *arg = [NSString stringWithUTF8String:argv[1]];
         
         if([arg isEqual:@"-x"]) {
-            [controller interpretContentsOfEnvironmentVariable:(argv[2] == NULL ? "SC3_INTERPRET_TEXT" : argv[2])];
+            [controller interpretContentsOfEnvironmentVariable:(argv[2] == NULL ? "SC_INTERPRET_TEXT" : argv[2])];
             return 0;
         }
         
         if([arg isEqual:@"-d"]) {
             if(argc < 3) {
-                NSLog(@"Usage: sc3ctrl -d classname");
+                printf("Usage: sc3ctrl -d classname\n");
             } else {
                 [controller openHelpFile:[NSString stringWithUTF8String:argv[2]]];
             }
@@ -25,7 +25,7 @@ int main (int argc, const char **argv) {
         
         if([arg isEqual:@"-j"]) {
             if(argc < 3) {
-                NSLog(@"Usage: sc3ctrl -j classname");
+                printf("Usage: sc3ctrl -j classname\n");
             } else {
                 [controller openClassFile:[NSString stringWithUTF8String:argv[2]]];
             }
@@ -33,7 +33,7 @@ int main (int argc, const char **argv) {
         
         if([arg isEqual:@"-y"]) {
             if(argc < 3) {
-                NSLog(@"Usage: sc3ctrl -y methodname");
+                printf("Usage: sc3ctrl -y methodname\n");
             } else {
                 [controller openImplementations:[NSString stringWithUTF8String:argv[2]]];
             }
@@ -41,7 +41,7 @@ int main (int argc, const char **argv) {
         
         if([arg isEqual:@"-Y"]) {
             if(argc < 3) {
-                NSLog(@"Usage: sc3ctrl -Y methodname");
+                printf("Usage: sc3ctrl -Y methodname\n");
             } else {
                 [controller openReferences:[NSString stringWithUTF8String:argv[2]]];
             }
