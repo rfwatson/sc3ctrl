@@ -8,16 +8,17 @@
 
 #import "SC3Controller.h"
 
-
 @implementation SC3Controller
 
 - (id)init
 {
     [super init];
     manager = [[OSCManager alloc] init];
+    [manager setDelegate:self];
     outport = [manager createNewOutputToAddress:@"127.0.0.1" atPort:57120];
     return self;
 }
+
 
 - (void)interpretContentsOfEnvironmentVariable:(const char *)var
 {
@@ -25,6 +26,7 @@
     
     if(utf8cmd == NULL) {
         Log(@"$%s is NULL", var);
+        
         return;
     }
     
@@ -38,6 +40,7 @@
     [outport sendThisMessage:msg];
 }
 
+
 - (void)openHelpFile:(NSString *)classname
 {
     OSCMessage *msg = [OSCMessage createMessageToAddress:@"/sc3ctrl/help"];
@@ -47,6 +50,7 @@
     
     [outport sendThisMessage:msg];
 }
+
 
 - (void)openClassFile:(NSString *)classname
 {
@@ -58,6 +62,7 @@
     [outport sendThisMessage:msg];
 }
 
+
 - (void)openImplementations:(NSString *)method
 {
     OSCMessage *msg = [OSCMessage createMessageToAddress:@"/sc3ctrl/implementations"];
@@ -68,6 +73,7 @@
     [outport sendThisMessage:msg];
 }
 
+
 - (void)openReferences:(NSString *)method
 {
     OSCMessage *msg = [OSCMessage createMessageToAddress:@"/sc3ctrl/references"];
@@ -77,8 +83,6 @@
     
     [outport sendThisMessage:msg];
 }
-
-
 
 - (void)close
 {

@@ -11,7 +11,6 @@
 #include "debug.h"
 
 @interface SC3Controller : NSObject {
-
     OSCManager *manager;
     OSCOutPort *outport;
 }

@@ -3,7 +3,6 @@
 SC3Controller {
   classvar nodes;
 
-
   *initClass {
     nodes = List[];
     
@@ -21,9 +20,9 @@ SC3Controller {
         nodes.add(node);
        
         node = OSCresponderNode(nil, '/sc3ctrl/class') { |t, r, msg|
-          { msg[1].asString.interpret.openCodeFile }.defer
+          { msg[1].interpret.openCodeFile }.defer
         }.add;
-        nodes.add(node);       
+        nodes.add(node);
 
         node = OSCresponderNode(nil, '/sc3ctrl/implementations') { |t, r, msg|
           { SC3Controller.methodTemplates(msg[1]) }.defer
@@ -33,7 +32,7 @@ SC3Controller {
         node = OSCresponderNode(nil, '/sc3ctrl/references') { |t, r, msg|
           { SC3Controller.methodReferences(msg[1]) }.defer
         }.add;
-        nodes.add(node);       
+        nodes.add(node);
       }
     }
   }

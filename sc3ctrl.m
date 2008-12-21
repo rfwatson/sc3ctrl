@@ -1,7 +1,6 @@
 #import <Foundation/Foundation.h>
 #include "SC3Controller.h"
 
-
 int main (int argc, const char **argv) {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     SC3Controller *controller = [[SC3Controller alloc] init];
@@ -46,7 +45,7 @@ int main (int argc, const char **argv) {
             } else {
                 [controller openReferences:[NSString stringWithUTF8String:argv[2]]];
             }
-        }
+        }        
     }
 
     [controller close];
