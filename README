@@ -23,7 +23,7 @@ sc3ctrl is a command line utility which uses OpenSoundControl to control
 SuperCollider3.app in OSX.
 
 Consists of a small CoreFoundation bundle written in Objective-C and a
-single SuperCollider class. 
+single SuperCollider class.
 
 Binary: http://www.trapdoor1.net/sc3/sc3ctrl.tar.gz
 (as yet untested on anything other than 10.5)
@@ -31,8 +31,8 @@ Binary: http://www.trapdoor1.net/sc3/sc3ctrl.tar.gz
 Source code: http://github.com/rfwatson/sc3ctrl
 
 
-Installation
-============
+Binary Installation
+===================
 
 1) Drag the bundle into a suitable location on your machine 
               (e.g. /Application/Utilities/)

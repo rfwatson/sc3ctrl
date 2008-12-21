@@ -437,6 +437,8 @@
 			567168010EFEF2A50047EA2B /* PBXTextBookmark */ = 567168010EFEF2A50047EA2B /* PBXTextBookmark */;
 			567168020EFEF2A50047EA2B /* PBXTextBookmark */ = 567168020EFEF2A50047EA2B /* PBXTextBookmark */;
 			567168030EFEF2A50047EA2B /* PBXTextBookmark */ = 567168030EFEF2A50047EA2B /* PBXTextBookmark */;
+			567168050EFEF4F20047EA2B /* PBXTextBookmark */ = 567168050EFEF4F20047EA2B /* PBXTextBookmark */;
+			567168060EFEF4F20047EA2B /* PBXTextBookmark */ = 567168060EFEF4F20047EA2B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 567161F90EFD3E860047EA2B /* Source Control */;
 		userBuildSettings = {
@@ -2753,9 +2755,9 @@
 	};
 	5671676A0EFEDC650047EA2B /* README */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1412, 1104}}";
-			sepNavSelRange = "{968, 0}";
-			sepNavVisRange = "{443, 992}";
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 1120}}";
+			sepNavSelRange = "{1240, 0}";
+			sepNavVisRange = "{829, 919}";
 		};
 	};
 	5671676D0EFEDC740047EA2B /* PBXTextBookmark */ = {
@@ -2783,7 +2785,7 @@
 		fRef = 5671676A0EFEDC650047EA2B /* README */;
 		name = "README: 68";
 		rLen = 0;
-		rLoc = 2119;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 0;
@@ -2823,7 +2825,7 @@
 		fRef = 5671676A0EFEDC650047EA2B /* README */;
 		name = "README: 68";
 		rLen = 0;
-		rLoc = 2119;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 0;
@@ -3837,6 +3839,26 @@
 		vrLoc = 443;
 	};
 	567168030EFEF2A50047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567167760EFEDCB50047EA2B /* install.rb */;
+		name = "install.rb: 14";
+		rLen = 0;
+		rLoc = 400;
+		rType = 0;
+		vrLen = 420;
+		vrLoc = 0;
+	};
+	567168050EFEF4F20047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5671676A0EFEDC650047EA2B /* README */;
+		name = "README: 35";
+		rLen = 0;
+		rLoc = 1240;
+		rType = 0;
+		vrLen = 919;
+		vrLoc = 829;
+	};
+	567168060EFEF4F20047EA2B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 567167760EFEDCB50047EA2B /* install.rb */;
 		name = "install.rb: 14";
