@@ -1,0 +1,75 @@
+h1. "sc3ctrl":http://github.com/rfwatson/sc3ctrl
+
+A command line utility which uses OpenSoundControl to control
+"SuperCollider3.app":http://supercollider.sourceforge.net in OSX.
+
+Consists of a small CoreFoundation bundle written in Objective-C and a
+single SuperCollider class.
+
+Binary download: http://www.trapdoor1.net/sc3/sc3ctrl.tar.gz
+(as yet untested on anything other than 10.5)
+
+
+h2. Binary Installation
+
+# Drag the bundle into a suitable location on your machine 
+              (e.g. @/Application/Utilities/@)
+# @cd /Application/Utilities/sc3ctrl/@
+# @sudo ./install.rb@
+# Start SuperCollider.app
+
+
+h2. Command line usage
+
+* @sc3ctrl -x@  <br/>
+Execute the SC code in environment variable @SC_INTERPRET_TEXT@
+
+* @sc3ctrl -x VARIABLE_NAME@  <br/>
+Execute the SC code in environment variable @VARIABLE_NAME@
+
+* @sc3ctrl -d classname@      <br/>
+Open help file for @classname@
+
+* @sc3ctrl -j classname@  <br/>    
+Open class definition for @classname@
+
+* @sc3ctrl -y methodname@     <br/>
+Examine implementations of @methodname@
+
+* @sc3ctrl -Y methodname@     <br/>
+Examine references to @methodname@
+
+* @sc3ctrl -s@        <br/>
+Stop server (@CMD-PERIOD@)
+
+* @sc3ctrl -c@                <br/>
+Clear post window
+
+* @sc3ctrl -p@   <br/>             
+Post window to front
+
+* @sc3ctrl -k@      <br/>          
+Recompile class library (requires recent build)
+
+
+h2. Contact me
+
+Via "github":http://github.com/rfwatson
+
+
+**************************************************************************
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+**************************************************************************

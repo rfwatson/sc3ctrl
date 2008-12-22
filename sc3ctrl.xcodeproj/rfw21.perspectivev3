@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>567168060EFEF4F20047EA2B</string>
+						<string>5671680B0EFF06BC0047EA2B</string>
 						<key>history</key>
 						<array>
 							<string>567167AA0EFEE3560047EA2B</string>
@@ -272,6 +272,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -324,7 +326,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -357,14 +359,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>567162000EFD3EA50047EA2B</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>README</string>
+								<string>SC3Controller.sc</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -372,11 +372,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>567162010EFD3EA50047EA2B</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>README</string>
+										<string>SC3Controller.sc</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>567168050EFEF4F20047EA2B</string>
+										<string>5671680A0EFF06BC0047EA2B</string>
 										<key>history</key>
 										<array>
 											<string>567164430EFE8E370047EA2B</string>
@@ -388,8 +388,8 @@
 											<string>567167960EFEE0EC0047EA2B</string>
 											<string>567167D00EFEEA010047EA2B</string>
 											<string>567167F50EFEEC780047EA2B</string>
+											<string>567168080EFF06BC0047EA2B</string>
 											<string>567167FE0EFEF2A50047EA2B</string>
-											<string>567167FF0EFEF2A50047EA2B</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -483,6 +483,7 @@
 											<string>567167F60EFEEC780047EA2B</string>
 											<string>567168000EFEF2A50047EA2B</string>
 											<string>567168010EFEF2A50047EA2B</string>
+											<string>567168090EFF06BC0047EA2B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
