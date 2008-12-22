@@ -443,6 +443,12 @@
 			567168090EFF06BC0047EA2B /* PBXTextBookmark */ = 567168090EFF06BC0047EA2B /* PBXTextBookmark */;
 			5671680A0EFF06BC0047EA2B /* PBXTextBookmark */ = 5671680A0EFF06BC0047EA2B /* PBXTextBookmark */;
 			5671680B0EFF06BC0047EA2B /* PBXTextBookmark */ = 5671680B0EFF06BC0047EA2B /* PBXTextBookmark */;
+			5671681C0EFFAB7A0047EA2B /* PBXTextBookmark */ = 5671681C0EFFAB7A0047EA2B /* PBXTextBookmark */;
+			5671681D0EFFAB7A0047EA2B /* PBXTextBookmark */ = 5671681D0EFFAB7A0047EA2B /* PBXTextBookmark */;
+			5671681E0EFFAB7A0047EA2B /* PBXTextBookmark */ = 5671681E0EFFAB7A0047EA2B /* PBXTextBookmark */;
+			5671681F0EFFAB7A0047EA2B /* PBXTextBookmark */ = 5671681F0EFFAB7A0047EA2B /* PBXTextBookmark */;
+			567168220EFFABFE0047EA2B /* PBXTextBookmark */ = 567168220EFFABFE0047EA2B /* PBXTextBookmark */;
+			567168230EFFABFE0047EA2B /* PBXTextBookmark */ = 567168230EFFABFE0047EA2B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 567161F90EFD3E860047EA2B /* Source Control */;
 		userBuildSettings = {
@@ -2732,9 +2738,9 @@
 	};
 	567167630EFECFD80047EA2B /* SC3Controller.sc */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1412, 2240}}";
-			sepNavSelRange = "{3474, 0}";
-			sepNavVisRange = "{0, 847}";
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 2256}}";
+			sepNavSelRange = "{204, 0}";
+			sepNavVisRange = "{0, 528}";
 		};
 	};
 	567167660EFECFE10047EA2B /* PBXTextBookmark */ = {
@@ -2758,6 +2764,12 @@
 		vrLoc = 1606;
 	};
 	5671676A0EFEDC650047EA2B /* README */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text;
+		name = README;
+		path = /Developer/Projects/sc3ctrl/README;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1412, 1120}}";
 			sepNavSelRange = "{1240, 0}";
@@ -3903,6 +3915,66 @@
 		vrLoc = 0;
 	};
 	5671680B0EFF06BC0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567167760EFEDCB50047EA2B /* install.rb */;
+		name = "install.rb: 14";
+		rLen = 0;
+		rLoc = 400;
+		rType = 0;
+		vrLen = 420;
+		vrLoc = 0;
+	};
+	5671681C0EFFAB7A0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567167630EFECFD80047EA2B /* SC3Controller.sc */;
+		name = "SC3Controller.sc: 12";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	5671681D0EFFAB7A0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567167630EFECFD80047EA2B /* SC3Controller.sc */;
+		name = "SC3Controller.sc: 12";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	5671681E0EFFAB7A0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567167630EFECFD80047EA2B /* SC3Controller.sc */;
+		name = "SC3Controller.sc: 12";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	5671681F0EFFAB7A0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567167760EFEDCB50047EA2B /* install.rb */;
+		name = "install.rb: 14";
+		rLen = 0;
+		rLoc = 400;
+		rType = 0;
+		vrLen = 420;
+		vrLoc = 0;
+	};
+	567168220EFFABFE0047EA2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 567167630EFECFD80047EA2B /* SC3Controller.sc */;
+		name = "SC3Controller.sc: 12";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	567168230EFFABFE0047EA2B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 567167760EFEDCB50047EA2B /* install.rb */;
 		name = "install.rb: 14";
