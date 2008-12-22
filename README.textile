@@ -6,8 +6,9 @@ A command line utility which uses OpenSoundControl to control
 Consists of a small CoreFoundation bundle written in Objective-C and a
 single SuperCollider class.
 
-Binary download: http://www.trapdoor1.net/sc3/sc3ctrl.tar.gz
-(as yet untested on anything other than 10.5)
+h3. "Binary download":http://rfwatson.github.com/sc3ctrl.tar.gz
+
+(binary as yet untested on anything other than 10.5)
 
 
 h2. Binary Installation
