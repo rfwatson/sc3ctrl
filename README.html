@@ -1,0 +1,117 @@
+<h1><a href="http://github.com/rfwatson/sc3ctrl">sc3ctrl</a></h1>
+
+
+	<p>A command line utility which uses OpenSoundControl to control
+<a href="http://supercollider.sourceforge.net">SuperCollider3.app</a> in <span class="caps">OSX</span>.</p>
+
+
+	<p>Consists of a small CoreFoundation bundle written in Objective-C and a
+single SuperCollider class.</p>
+
+
+	<h3><a href="http://rfwatson.github.com/sc3ctrl.tar.gz">Binary download</a></h3>
+
+
+	<p>(binary as yet untested on anything other than 10.5)</p>
+
+
+	<h2>Binary Installation</h2>
+
+
+	<ol>
+	<li>Drag the bundle into a suitable location on your machine 
+              (e.g. <code>/Applications/Utilities/</code>)</li>
+		<li><code>cd /Applications/Utilities/sc3ctrl/</code></li>
+		<li><code>sudo ./install.rb</code></li>
+		<li>Start SuperCollider.app</li>
+	</ol>
+
+
+	<h2>Command line usage</h2>
+
+
+	<ul>
+	<li><code>sc3ctrl -x</code>  <br/>
+Execute the SC code in environment variable <code>SC_INTERPRET_TEXT</code></li>
+	</ul>
+
+
+	<ul>
+	<li><code>sc3ctrl -x VARIABLE_NAME</code>  <br/>
+Execute the SC code in environment variable <code>VARIABLE_NAME</code></li>
+	</ul>
+
+
+	<ul>
+	<li><code>sc3ctrl -d classname</code>      <br/>
+Open help file for <code>classname</code></li>
+	</ul>
+
+
+	<ul>
+	<li><code>sc3ctrl -j classname</code>  <br/>    
+Open class definition for <code>classname</code></li>
+	</ul>
+
+
+	<ul>
+	<li><code>sc3ctrl -y methodname</code>     <br/>
+Examine implementations of <code>methodname</code></li>
+	</ul>
+
+
+	<ul>
+	<li><code>sc3ctrl -Y methodname</code>     <br/>
+Examine references to <code>methodname</code></li>
+	</ul>
+
+
+	<ul>
+	<li><code>sc3ctrl -s</code>        <br/>
+Stop server (<code>CMD-PERIOD</code>)</li>
+	</ul>
+
+
+	<ul>
+	<li><code>sc3ctrl -c</code>                <br/>
+Clear post window</li>
+	</ul>
+
+
+	<ul>
+	<li><code>sc3ctrl -p</code>   <br/>             
+Post window to front</li>
+	</ul>
+
+
+	<ul>
+	<li><code>sc3ctrl -k</code>      <br/>          
+Recompile class library (requires recent build)</li>
+	</ul>
+
+
+	<h2>Contact me</h2>
+
+
+	<p>Via <a href="http://github.com/rfwatson">github</a></p>
+
+
+	<p><b><strong>*</b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b></strong>*
+This program is free software; you can redistribute it and/or modify
+it under the terms of the <span class="caps">GNU</span> General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.</p>
+
+
+	<p>This program is distributed in the hope that it will be useful,
+but <span class="caps">WITHOUT ANY WARRANTY</span>; without even the implied warranty of
+<span class="caps">MERCHANTABILITY</span> or <span class="caps">FITNESS FOR A PARTICULAR PURPOSE</span>.  See the
+<span class="caps">GNU</span> General Public License for more details.</p>
+
+
+	<p>You should have received a copy of the <span class="caps">GNU</span> General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, <span class="caps">MA  02111</span>-1307  <span class="caps">USA</span></p>
+
+
+	<p><b><strong>*</b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b><b></strong><strong></b></strong>*</p>

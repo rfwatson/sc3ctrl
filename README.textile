@@ -14,8 +14,8 @@ h3. "Binary download":http://rfwatson.github.com/sc3ctrl.tar.gz
 h2. Binary Installation
 
 # Drag the bundle into a suitable location on your machine 
-              (e.g. @/Application/Utilities/@)
-# @cd /Application/Utilities/sc3ctrl/@
+              (e.g. @/Applications/Utilities/@)
+# @cd /Applications/Utilities/sc3ctrl/@
 # @sudo ./install.rb@
 # Start SuperCollider.app
 
