@@ -22,8 +22,10 @@ SC3Controller {
     
     if(nodes.isEmpty) {
       node = OSCresponderNode(nil, '/sc3ctrl/cmd') { |t, r, msg|
-        msg[1].asString.interpretPrint;
-        { postToFront.() }.defer;
+        {
+          msg[1].asString.interpretPrint;
+          postToFront.();
+        }.defer
       }.add;
       nodes.add(node);
     

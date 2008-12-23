@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>567168230EFFABFE0047EA2B</string>
+						<string>5671682B0F003DCC0047EA2B</string>
 						<key>history</key>
 						<array>
 							<string>567167AA0EFEE3560047EA2B</string>
@@ -272,8 +272,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -348,7 +346,7 @@
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 93 1680 935 0 0 1680 1028 </string>
+						<string>-2 93 1680 935 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -376,7 +374,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>567168220EFFABFE0047EA2B</string>
+										<string>5671682A0F003DCC0047EA2B</string>
 										<key>history</key>
 										<array>
 											<string>567164430EFE8E370047EA2B</string>
@@ -495,7 +493,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1473, 468}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 93 1680 935 0 0 1680 1028 </string>
+								<string>-2 93 1680 935 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -508,6 +506,8 @@
 							<key>Tabs</key>
 							<array>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -520,7 +520,7 @@
 										<key>Frame</key>
 										<string>{{10, 27}, {1473, 394}}</string>
 										<key>RubberWindowFrame</key>
-										<string>0 93 1680 935 0 0 1680 1028 </string>
+										<string>-2 93 1680 935 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -797,7 +797,7 @@
 		<string>/Developer/Projects/sc3ctrl/sc3ctrl.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 93 1680 935 0 0 1680 1028 </string>
+	<string>-2 93 1680 935 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
